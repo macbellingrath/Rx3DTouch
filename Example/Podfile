@@ -1,0 +1,12 @@
+use_frameworks!
+
+target 'Rx3DTouch_Example' do
+  pod 'Rx3DTouch', :path => '../'
+
+  target 'Rx3DTouch_Tests' do
+    inherit! :search_paths
+
+    pod 'Quick', '~> 1.0.0'
+  pod 'Nimble', '~> 5.1.1'
+  end
+end
