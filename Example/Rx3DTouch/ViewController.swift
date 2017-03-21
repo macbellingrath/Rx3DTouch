@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Rx3DTouch
 
 class ViewController: UIViewController {
 
